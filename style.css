@@ -1,0 +1,30 @@
+:root{
+    --monBleu : rgba(234, 113, 53, 0.919);
+    --maPolice : 'Ubuntu';
+}
+.monTitre{
+    color: rgba(81, 131, 217, 0.919);
+}
+.boite{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.monBouton{
+    font-family: 'Poppins';
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.maCale{
+    margin: 50px;
+    padding: 10px;
+
+}
+
+.couleurBouton{
+    color: var(--monBleu);
+    font-family: var(--maPolice);
+    
+}
